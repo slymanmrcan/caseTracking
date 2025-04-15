@@ -23,7 +23,7 @@ export default function SignUpForm() {
     setError("");
 
     try {
-      const res = await fetch("https://api.suleymanmercan/api/Auth/Register", {
+      const res = await fetch("https://api.suleymanmercan.com/api/Auth/Register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

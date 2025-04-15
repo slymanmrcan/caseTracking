@@ -23,7 +23,7 @@ export default function SignInForm() {
     setError("");
     const emailorusername = email;
     try {
-      const res = await fetch("https://localhost:7120/api/Auth/login", {
+      const res = await fetch("https://api.suleymanmercan.com/api/Auth/Login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
