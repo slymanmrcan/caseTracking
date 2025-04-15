@@ -32,7 +32,7 @@ const Cases = () => {
       const fetchData = async () => {
         setIsLoading(true);
         try {
-          const res = await fetch('https://localhost:7120/api/Case', {
+          const res = await fetch('https://api.suleymanmercan/api/Case', {
             method: 'GET',
             headers: {
               'Authorization': `Bearer ${token}`,

@@ -28,7 +28,7 @@ export default function Create() {
         documents: []
       };
       
-      const response = await fetch("https://localhost:7120/api/Case", {
+      const response = await fetch("https:api.suleymanmercan/api/Case", {
         method: "POST",
         headers: {
           'Content-Type': 'application/json',
